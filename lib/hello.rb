@@ -6,9 +6,10 @@ def hello_t(array)
       yield array[i]
       i = i + 1
     end
-  array
-else
-  puts "Hey! No blck was given!"
+    array
+  else
+    puts "Hey! No blck was given!"
+  end
 end
 
 # call your method here!
